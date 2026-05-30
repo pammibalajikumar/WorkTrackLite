@@ -56,9 +56,13 @@
 
                 <DataGrid.Columns>
 
-                    <DataGridTextColumn Header="ID"
+                    <!--<DataGridTextColumn Header="ID"
                                         Binding="{Binding Id}"
-                                        Width="80"/>
+                                        Width="80"/>-->
+
+                    <DataGridTextColumn Header="Serial No"
+                    Binding="{Binding SerialNo}"
+                    Width="80"/>
 
                     <DataGridTextColumn Header="Check In"
                                         Binding="{Binding CheckInTime}"
