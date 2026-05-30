@@ -17,13 +17,7 @@ namespace WorkTrackLite.Models
             public string ?Status { get; set; }
 
             public bool ?Synced { get; set; }
-            //private bool _synced;
-
-            //public bool Synced
-            //{
-            //    get => _synced;
-            //    set => SetProperty(ref _synced, value);
-            //}
+            
         }
     }
 }
